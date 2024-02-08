@@ -34,7 +34,7 @@ function App() {
         <button onClick={handleSearch}>Search</button>
       </div>
 
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {error && <p className='errorMsg' style={{ color: 'red' }}>{error}</p>}
 
       {userData && (
         <div className='datas'>

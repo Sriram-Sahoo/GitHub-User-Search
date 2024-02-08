@@ -17,6 +17,7 @@ img{
   border-radius: 50%;
   box-shadow: 7px 7px 30px rgb(199, 198, 198);
   margin: 20px 0;
+  max-width: 90%;
 }
 .box{
   padding: 5vw 5vw;
@@ -24,6 +25,7 @@ img{
   background-color: rgba(255, 255, 255, 0.285);
   backdrop-filter: blur(8px) ;
   box-shadow: 0 0 30px rgb(149, 148, 148);
+  max-width: 95vw;
 }
 .datas{
   font-size: 20px;
@@ -32,4 +34,8 @@ img{
 .NAME{
   text-shadow: 3px 3px 15px rgb(202, 201, 201);
   font-size: 40px;
+}
+
+.errorMsg{
+  font-size: 30px;
 }
